@@ -1,0 +1,420 @@
+ *{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header{
+	padding-left: 60px;
+	padding-top: 20px;	
+}
+body{
+	width: 100%;
+	float: left;
+	background-image: url(../images/banner.png);
+	height: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-size:cover;
+	background-size: 100%;
+    background-repeat: no-repeat;
+}
+.flex{
+	display: flex;
+	flex-wrap: nowrap;
+}
+.flex ul{
+	list-style-type: none;
+	margin-left: 200px;
+	padding-top: 30px;
+	padding: 20px;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+.flex ul li{
+	display: inline-block;
+	text-align: right;
+	padding: 10px;
+}
+.flex ul li a{
+	text-decoration: none;
+	color: white;
+}
+.web{
+	display: flex;
+}
+.hosting h2{
+	font-size: 50px;
+	font-family: 'Permanent Marker', cursive;
+	margin-top: 200px;
+	position: absolute;
+	left: 95px;
+	text-align: center;
+}
+.hosting p{
+	margin-top: 300px;
+	font-size: 19px;
+	position: absolute;
+	left: 90px;
+	text-align: center;
+	font-family: 'Kufam', cursive;
+}
+.btn input{
+	margin-top: 150px;
+	width: 150px;
+	height: 50px;
+	border-radius: 10px;
+	font-size: 20px;
+	font-family: 'Kufam', cursive;
+	background-color: mediumseagreen;
+	border: 2px solid mediumseagreen;
+	color: white;
+}
+.woofer img{
+	height: 450px;
+	margin-left: 700px;
+}
+.choose h1{
+	text-align: center;
+	padding-top: 80px;
+	font-size: 50px;
+	font-family: 'Yusei Magic', sans-serif;
+}
+.choose span{
+	color: mediumaquamarine;
+}
+.choose p{
+	text-align: center;
+	font-size: 15px;
+	padding: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.choose .grid{
+	display: grid;
+	grid-gap: 30px;
+	grid-template-columns: auto auto auto;
+	padding: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	justify-content: center;
+	border: 2px solid white;
+}
+.choose .grid div h3{
+	text-align: center;
+	padding-top: 30px;
+}
+.choose .grid div p{
+	text-align: center;
+}
+.choose .grid div img{
+	padding-left: 100px
+}
+.power{
+	background-color: mediumaquamarine;
+	padding: 30px;
+	border: 2px solid mediumaquamarine;
+	border-radius: 30px;
+	box-shadow: 5px 5px 5px 5px gray;
+}
+.grid h3{
+	font-family: 'Permanent Marker', cursive;
+	font-size: 40px;
+	color: white;
+}
+.grid p{
+	font-family: 'Asap', sans-serif;
+	color: white;
+	font-size: 20px;
+}
+.totaly{
+	background-color: white;
+	padding: 30px;
+	border: 2px solid white;
+	border-radius: 30px;
+	box-shadow: 5px 5px 5px 5px gray;
+}
+.totaly h3{
+	color: black;
+}
+.totaly p{
+	color: black;
+}
+.world{
+	background-color: white;
+	padding: 30px;
+	border: 2px solid white;
+	border-radius: 30px;
+	box-shadow: 5px 5px 5px 5px gray;
+}
+.world h3{
+	color: black;
+}
+.world p{
+	color: black;
+}
+.grid .btn{
+	margin-top: -150px;
+}
+.grid .btn input{
+	background-color: black;
+	color: white;
+	border-color: black;
+}
+.com{
+	display: grid;
+	grid-gap: 50px;
+	grid-template-columns: auto auto;
+	padding: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	justify-content: center;
+	border: 2px solid white;
+}
+.com{
+	width: 100%;
+	float: left;
+	background-image: url(../images/contact-bg.png);
+	height:600px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-size:cover;
+	background-size: 100%;
+    background-repeat: no-repeat;
+}
+.com .img-1 img{
+	height: 400px;
+	margin-top: 100px;	
+}
+.com .offer{
+	background-color: white;
+	height: 400px;
+	margin-top: 100px;
+	padding:20px;
+	text-align: center;
+	width: 500px;
+}
+.com .offer h2{
+	color: mediumaquamarine;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 40px;
+	text-align: left;
+}
+.com .offer p{
+	color: black;
+	font-family: 'Asap', sans-serif;
+	font-size: 20px;
+	text-align: left;
+}
+.service{
+	display: grid;
+	grid-gap: 50px;
+	grid-template-columns: auto auto auto;
+	padding: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	justify-content: center;
+	text-align: center;	
+}
+.service div{
+	padding: 40px;
+	border-radius: 30px;
+}
+.our h1{
+	font-size: 70px;
+	text-align: center;
+}
+.our p{
+	text-align: center;
+	font-family: 'Asap', sans-serif;
+	font-size: 20px;
+}
+.our span{
+	color: mediumaquamarine;
+}
+.service .shared{
+	border: 2px solid mediumaquamarine;
+}
+.service .dedicated{
+	border: 2px solid mediumaquamarine;
+}
+.service .domain{
+	border: 2px solid mediumaquamarine;
+}
+.service .host{
+	background-color: mediumaquamarine;
+	color: white;
+}
+.service .btn input{
+	background-color: black;
+	border-color: black;
+	margin-top: -100px;
+}
+.call h1{
+	font-size: 50px;
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+	padding: 20px;
+}
+.call p{
+	font-size: 15px;
+	text-align: center;
+	padding: 20px;
+}
+.request{
+	width: 100%;
+	float: left;
+	background-image: url(../images/contact-bg.png);
+	height:600px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-size:cover;
+	background-size: 100%;
+    background-repeat: no-repeat;
+}
+.request{
+	display: flex;
+	flex-wrap: nowrap;
+	padding: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	justify-content: center;
+	text-align: center;	
+}
+.request div{
+	padding: 20px;
+}
+.request form{
+	padding: 20px;
+	margin-top: 20px;
+	background-color: white;
+	width: 500px;
+	height: 470px;
+	border: 2px;
+	border-radius: 30px;
+	font-size: 20px;
+}
+.request form input{
+	width: 400px;
+	padding: 20px;
+	border: 2px; 
+	background-color: lightgrey;
+	border-radius: 20px;
+	margin-top: 10px;
+}
+.request form textarea{
+	background-color: lightgrey;
+	margin-top: 20px;
+	text-align: center;
+	width: 400px;
+	height: 100px;
+	border: 2px;
+	border-radius: 20px;
+}
+.request form .send{
+	width: 150px;
+	border: 2px;
+	border-radius: 10px;
+	height: 50px;
+	text-align: center;
+	font-family: 'Asap', sans-serif;
+	padding: 10px;
+	background-color: chocolate;
+	color: white;
+	padding-bottom: 30px;
+}
+.request img{
+	height: 470px;
+	margin-top: 20px;
+}
+.footer{
+	background-color: black;
+	width: 100%;
+	float: left;
+	height:600px;
+	position: relative;
+	top: -70px;
+	z-index: -1;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	background-size:cover;
+	background-size: 100%;
+    background-repeat: no-repeat;
+}
+.footer p{
+	border: 2px solid white;
+	border-radius: 30px;
+	margin-top: 100px;
+	background-color: white;
+	font-size: 20px;
+	width: 1000px;
+	text-align: center;
+	height: 70px;
+	padding: 20px;
+	margin-left: 100px;
+	color: lightgray;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.link{
+	display: grid;
+	grid-gap: 50px;
+	grid-template-columns: auto auto auto;
+	padding: 30px;
+	justify-content: center;
+	text-align: left;
+	padding-top: 50px;
+}
+.link .footer-logo img{
+	width: 200px;
+}
+.link h2{
+	color: white;
+}
+.link ul{
+	display: inline-block;
+}
+.link ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	font-size: 20px;
+	font-family: 'Asap', sans-serif;
+}
+.link .subscribe input{
+	width: 200px;
+	border: 2px solid black;
+	border-radius: 30px;
+	color: white;
+	height: 60px;
+	margin-top: 40px;
+	text-align: center;
+	background-color: black;
+}
+.link .subscribe input[type=submit]{
+	width: 200px;
+}
+.link h4{
+	padding: 20px;
+	word-spacing: 20px;
+	margin-left: -150px;
+}
+.all{
+	background-color: mediumaquamarine;
+	width: 100%;
+	float: left;
+	height:100px;
+	margin-top: -70px;
+	margin-bottom: 0;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	background-size:cover;
+	background-size: 100%;
+    background-repeat: no-repeat;	
+}
+.all p{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 20px;
+	color: white;
+}
